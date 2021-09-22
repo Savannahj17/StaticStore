@@ -45,7 +45,7 @@ section#sidebar {
 /*Main Section*/
 #main{
 /*background-color: #FCFBE6;*/
-background-color: rgba(252,251,243,0.7)
+background-color: rgba(252,251,243,0.7);
 margin: 0 0 2.0em 1.5;
 display: inline-block;
 border-radius: 2em;
