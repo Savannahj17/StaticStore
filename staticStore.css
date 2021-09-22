@@ -32,5 +32,33 @@ p {
 /*Header*/
 /*Nav Bars*/
 /*Sidebar Section*/
+section#sidebar {
+    width: 238px;
+    float: left;
+    position: relative;
+    display: block;
+    background-color: #ffff;
+    margin: 1.5em 0 3.0em 1.5em;
+    padding: 1.7em 0.5em 2.0em 1.7em;
+    border-right:#2BA967 solid 5px;
+}
 /*Main Section*/
+#main{
+/*background-color: #FCFBE6;*/
+background-color: rgba(252,251,243,0.7)
+margin: 0 0 2.0em 1.5;
+display: inline-block;
+border-radius: 2em;
+box-shadow: 1px 1px 5px #777;/* offset-x | offset-y | blur-radius | color */
+}
+section div.panel{
+    float: right;
+    position: relative;
+    width: 250px;
+    margin: 0 0.5em 2.0em 0.5em;
+    padding: 1.0em;
+    background-color: #ffff;
+    border: #ccc solid 1px;
+    border-radius: 0.6em;
+}
 /*Footer*/
